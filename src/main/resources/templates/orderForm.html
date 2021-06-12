@@ -17,8 +17,8 @@
 		</div>
 		
 		<h3>Deliver my taco masterpieces to...</h3>
-		<label for="name">Name: </label> <input type="text" th:field="*{name}" /> 
-		<span class="validationError" th:if="${#fields.hasErrors('name')}"
+		<label for="customerName">Name: </label> <input type="text" th:field="*{customerName}" /> 
+		<span class="validationError" th:if="${#fields.hasErrors('customerName')}"
 		    th:errors="*{name}">Name Error </span><br/>
 		<label for="street">Street address: </label> <input type="text" th:field="*{street}" /> 
 		<span class="validationError" th:if="${#fields.hasErrors('street')}"
